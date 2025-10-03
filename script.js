@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- DATA ---
     const gameTitles = [
-        { title: "MMSF: Pegasus", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title01_en.png" },
-        { title: "MMSF: Leo", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title02_en.png" },
-        { title: "MMSF: Dragon", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title03_en.png" },
+        { title: "MMSF: Leo", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title01_en.png" },
+        { title: "MMSF: Dragon", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title02_en.png" },
+        { title: "MMSF: Pegasus", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title03_en.png" },
         { title: "MMSF 2: Zerker × Ninja", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title04_en.png" },
         { title: "MMSF 2: Zerker × Saurian", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title05_en.png" },
         { title: "MMSF 3: Black Ace", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title06_en.png" },
