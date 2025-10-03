@@ -99,4 +99,18 @@ document.addEventListener('DOMContentLoaded', () => {
     populateCharacters();
     updateLiveDateTime(); // Initial call to display time immediately
     setInterval(updateLiveDateTime, 1000); // Update the time every second
+    // --- NEW: Mobile Navigation Toggle ---
+const navToggle = document.querySelector('.nav-toggle');
+const body = document.body;
+
+navToggle.addEventListener('click', () => {
+body.classList.toggle('nav-open');
+});
+
+// Close mobile menu when a link is clicked
+document.querySelectorAll('nav ul li a').forEach(link => {
+link.addEventListener('click', () => {
+body.classList.remove('nav-open');
+});
+});
 });
