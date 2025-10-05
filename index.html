@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF--8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Mega Man Star Force Legacy Collection｜CAPCOM</title>
+    <!-- Google Font Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="page-top">
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#page-top"><img src="https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title_en.png" alt="Mega Man Star Force Legacy Collection Logo" class="logo-img"></a>
+            </div>
+            <div id="live-datetime-container"></div>
+            <!-- Hamburger Icon for Mobile -->
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <!-- Navigation Links Wrapper -->
+            <div class="nav-wrapper" id="nav-wrapper">
+                <ul>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#trailer">TRAILER</a></li>
+                    <li><a href="#title-list">TITLE LIST</a></li>
+                    <li><a href="#online">ONLINE</a></li>
+                    <li><a href="#characters">CHARACTERS</a></li>
+                    <li><a href="#details">DETAILS</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <img src="https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title_en.png" alt="Mega Man Star Force Legacy Collection" class="hero-logo-img">
+                <p class="release-date">Available 2026</p>
+            </div>
+        </section>
+
+        <section id="about" class="content-section hidden">
+            <h2>ABOUT THE SERIES</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>What is Mega Man Star Force?</h3>
+                    <p>To celebrate Mega Man's 20th anniversary, the new titles Mega Man Star Force Pegasus, Leo, and Dragon were released simultaneously. They evolved the best features of the Battle Network series, adding a new 3D battle system and exciting gameplay mechanics.</p>
+                </div>
+                <div class="about-text">
+                    <h3>The World of Star Force</h3>
+                    <p>It is the year 220X. The world is connected by a network of EM Waves. Our protagonist, Geo Stelar, still mourning the disappearance of his astronaut father, has his life changed forever when he encounters a rogue FM-ian named Omega-Xis.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="trailer" class="content-section hidden">
+            <h2>EXTENDED ANNOUNCE TRAILER</h2>
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/D4FkNAmZy6M?si=NUBtZHyVDl9Reuv5&amp;controls=0&mute=1" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>
+            </div>
+        </section>
+
+        <section id="title-list" class="content-section hidden">
+            <h2>INCLUDED TITLES</h2>
+            <div class="title-grid" id="title-grid-container"></div>
+        </section>
+
+        <section id="online" class="content-section hidden">
+            <h2>ENHANCED ONLINE FEATURES</h2>
+            <p>From battling rivals across the globe to trading BrotherBand cards, the powered-up online functions will let you experience the full power of the Mega Man Star Force network!</p>
+        </section>
+
+        <section id="characters" class="content-section hidden">
+            <h2>KEY CHARACTERS</h2>
+            <div class="character-grid" id="character-grid-container"></div>
+        </section>
+
+        <section id="details" class="content-section hidden">
+            <h2>GAME DETAILS</h2>
+            <div class="game-details">
+                <ul id="game-details-list">
+                    <!-- Game details will be dynamically inserted here -->
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <img src="https://www.capcom-games.com/common/img/logo/capcom_c_f.png" alt="Capcom Logo">
+        </div>
+    </footer>
+ <!-- Added audio player for background music -->
+    <audio id="bg-music" loop>
+        <source src="01. Title.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
