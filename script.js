@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
             pageTitle: "流星のロックマン レガシーコレクション｜CAPCOM",
             headerLogoUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title_ja.png",
             heroLogoUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title_ja.png",
-            trailerUrl: "https://www.youtube.com/embed/Q-i_q1-sF-A",
+            trailerUrl: "https://www.youtube.com/embed/WRq8aelnIzQ?si=EMqlR1TOVjKqrpNd&amp;controls=0&mute=1",
             gameTitles: [
                 { title: "流星のロックマン レオ", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title01.png" },
                 { title: "流星のロックマン ドラゴン", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title02.png" },
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const gameDetails = [
         { label_key: "detail_label_available", value: "2026" },
         { label_key: "detail_label_players", value_key: "detail_value_players" },
-        { label_key: "detail_label_platforms", value: "PlayStation 5, Xbox Series X|S, PC (Steam)" },
+        { label_key: "detail_label_platforms", value: "Nintendo Switch™ / PlayStation®5 / PlayStation®4 / Xbox Series X|S / Xbox One / PC(Steam)" },
         { label_key: "detail_label_rating", value_key: "detail_value_rating" },
         { label_key: "detail_label_genre", value: "Action RPG" },
         { label_key: "detail_label_note", value_key: "detail_value_note1" },
