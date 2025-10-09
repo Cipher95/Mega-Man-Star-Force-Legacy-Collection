@@ -39,13 +39,13 @@ document.addEventListener('DOMContentLoaded', () => {
             headerLogoUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title_ja.png",
             heroLogoUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title_ja.png",
             gameTitles: [
-                { title: "流星のロックマン レオ", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title01_ja.png" },
-                { title: "流星のロックマン ドラゴン", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title02_ja.png" },
-                { title: "流星のロックマン ペガサス", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title03_ja.png" },
-                { title: "流星のロックマン2 ベルセルク × シノビ", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title04_ja.png" },
-                { title: "流星のロックマン2 ベルセルク × ダイナソー", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title05_ja.png" },
-                { title: "流星のロックマン3 ブラックエース", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title06_ja.png" },
-                { title: "流星のロックマン3 レッドジョーカー", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title07_ja.png" }
+                { title: "流星のロックマン レオ", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title01.png" },
+                { title: "流星のロックマン ドラゴン", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title02.png" },
+                { title: "流星のロックマン ペガサス", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title03.png" },
+                { title: "流星のロックマン2 ベルセルク × シノビ", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title04.png" },
+                { title: "流星のロックマン2 ベルセルク × ダイナソー", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title05.png" },
+                { title: "流星のロックマン3 ブラックエース", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title06.png" },
+                { title: "流星のロックマン3 レッドジョーカー", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/common/logo/logo_title07.png" }
             ],
             characters: [
                 { name: "星河 スバル & ウォーロック", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character01.png" },
