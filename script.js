@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-
+let currentLang = 'en'; // Default language
     // --- SITE DATA & TRANSLATIONS ---
     const siteData = {
         en: {
@@ -95,7 +95,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function setLanguage(lang) {
-        const data = siteData[lang];
+        currentLang = lang; // Set the current language
+    const data = siteData[lang];
         document.documentElement.lang = lang;
         document.title = data.pageTitle;
 
@@ -122,13 +123,22 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // --- LIVE DATE & TIME ---
     function updateLiveDateTime() {
-        const container = document.getElementById('live-datetime-container');
-        if (!container) return;
-        const now = new Date();
-        const options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
-        const date = now.toLocaleDateString('en-US', options);
-        const time = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
-        container.textContent = `${date} | ${time}`;
+         const container = document.getElementById('live-datetime-container');
+    if (!container) return;
+    const now = new Date();
+    let date, time;
+
+    if (currentLang === 'ja') {
+        const dateOptions = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
+        date = now.toLocaleDateString('ja-JP', dateOptions);
+        time = now.toLocaleTimeString('ja-JP');
+    } else {
+        const dateOptions = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
+        date = now.toLocaleDateString('en-US', dateOptions);
+        time = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+    }
+
+    container.textContent = `${date} | ${time}`;
     }
 
     // --- DYNAMIC CONTENT GENERATION ---
