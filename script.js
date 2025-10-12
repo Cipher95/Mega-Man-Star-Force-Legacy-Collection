@@ -51,8 +51,8 @@ let currentLang = 'en'; // Default language
             ],
             characters: [
                 { name: "星河 スバル & ウォーロック", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character01.png" },
-                { name: "白金 ルナ", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character02.png" },
-                { name: "響 ミソラ", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character03.png" },
+                { name: "響 ミソラ", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character02.png" },
+                { name: "白金 ルナ", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character03.png" },
                 { name: "牛島 ゴン太", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character04.png" },
                 { name: "最小院 キザマロ", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character05.png" }
             ],
