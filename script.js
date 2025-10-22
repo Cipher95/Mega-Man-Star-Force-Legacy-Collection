@@ -33,7 +33,7 @@ let currentLang = 'en'; // Default language
                 online_text: "From battling rivals across the globe to trading BrotherBand cards, the powered-up online functions will let you experience the full power of the Mega Man Star Force network!",
                 characters_title: "KEY CHARACTERS", special_art_title: "SPECIAL ART", details_title: "GAME DETAILS", detail_label_available: "Available", detail_label_players: "Players",
                 detail_label_platforms: "Platforms", detail_label_rating: "Rating", detail_label_genre: "Genre", detail_label_note: "Note",
-                detail_value_players: "1 player (up to 2 players online)", detail_value_rating: "Rating Pending", detail_value_note1: "The screen is still in development.", detail_value_note2: "Crossplay and cross-save between platforms is not supported."
+                detail_value_players: "1 player (up to 2 players online)", detail_value_rating: "ESRB E10+", detail_value_note1: "The screen is still in development.", detail_value_note2: "Crossplay and cross-save between platforms is not supported."
             }
         },
         ja: {
