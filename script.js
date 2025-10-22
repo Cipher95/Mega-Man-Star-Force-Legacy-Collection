@@ -66,8 +66,8 @@ let currentLang = 'en'; // Default language
                 trailer_title: "拡張アナウンストレーラー", title_list_title: "収録タイトル", online_title: "強化されたオンライン機能",
                 online_text: "世界中のライバルとの対戦からブラザーバンドカードの交換まで、パワーアップしたオンライン機能で『流星のロックマン』ネットワークのフルパワーを体験できます！",
                 characters_title: "主な登場人物", special_art_title: "スペシャルアート", details_title: "ゲーム詳細", detail_label_available: "発売日", detail_label_players: "プレイヤー数",
-                detail_label_platforms: "プラットフォーム", detail_label_rating: "評価", detail_label_genre: "ジャンル", detail_label_note: "備考",
-                detail_value_players: "1人（オンライン最大2人）", detail_value_rating: "評価保留中", detail_value_note1: "画面は開発中のものです。", detail_value_note2: "プラットフォーム間のクロスプレイおよびクロスセーブはサポートされていません。"
+                detail_label_platforms: "プラットフォーム", detail_label_rating: "CERO", detail_label_genre: "ジャンル", detail_label_note: "備考",
+                detail_value_players: "1人（オンライン最大2人）", detail_value_rating: "B（12歳以上対象）", detail_value_note1: "画面は開発中のものです。", detail_value_note2: "プラットフォーム間のクロスプレイおよびクロスセーブはサポートされていません。"
             }
         }
     };
