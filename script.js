@@ -84,7 +84,7 @@ let currentLang = 'en'; // Default language
             ],
             translations: {
                 nav_about: "このシリーズについて", nav_trailer: "トレーラー", nav_title_list: "収録タイトル", nav_online: "オンライン", nav_characters: "キャラクター", nav_special_art: "スペシャルアート", nav_details: "詳細",
-                release_date: "2026年発売予定", about_title: "シリーズについて", about_subtitle1: "流星のロックマンとは？",
+                release_date: "2026年3月27日発売予定", about_title: "シリーズについて", about_subtitle1: "流星のロックマンとは？",
                 about_text1: "「ロックマン」20周年を記念して、新作『流星のロックマン ペガサス』、『レオ』、『ドラゴン』が同時発売されました。バトルネットワークシリーズの長所を進化させ、新しい3Dバトルシステムとエキサイティングなゲームプレイメカニクスを追加しました。",
                 about_subtitle2: "流星の世界", about_text2: "西暦220X年。世界はEM波のネットワークで結ばれている。宇宙飛行士の父の失踪を悼む主人公、星河スバルは、はぐれFM星人ウォーロックと出会い、その人生を大きく変えることになる。",
                 trailer_title: "拡張アナウンストレーラー", title_list_title: "収録タイトル", online_title: "強化されたオンライン機能",
@@ -103,7 +103,7 @@ let currentLang = 'en'; // Default language
     };
 
     const gameDetails = [
-        { label_key: "detail_label_available", value: "2026" },
+        { label_key: "detail_label_available", value: "March 27, 2026" },
         { label_key: "detail_label_players", value_key: "detail_value_players" },
         { label_key: "detail_label_platforms", value: "Nintendo Switch™ / PlayStation®5 / PlayStation®4 / Xbox Series X|S / Xbox One / PC(Steam)" },
         { label_key: "detail_label_rating", value_key: "detail_value_rating" },
