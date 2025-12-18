@@ -23,10 +23,16 @@ let currentLang = 'en'; // Default language
             ],
             characters: [
                 { name: "Geo Stelar & Omega-Xis", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character01.png", details: "The protagonist of the series. Geo is a lonely boy who lost his father, but finds a new purpose after merging with the boisterous FM-ian, Omega-Xis, to become Mega Man." },
+                { name: "Mega Man", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character11.png", details: "The fusion of Geo and Omega-Xis made of EM waves. This form allows Mega Man to explore the Wave World." },
                 { name: "Sonia Strumm", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character02.png", details: "A famous pop idol who struggles with the pressures of fame. She can Wave Change with the FM-ian Lyra to become Harp Note, a skilled and agile fighter." },
                 { name: "Luna Platz", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character03.png", details: "The assertive and often bossy class president of Geo's class. She eventually becomes a key ally and a strong leader among her friends." },
                 { name: "Bud Bison", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character04.png", details: "A large and boisterous boy with a big appetite. He can merge with the FM-ian Taurus to become the powerful Taurus Fire." },
-                { name: "Zack Temple", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character05.png", details: "A highly intelligent and somewhat nerdy classmate of Geo. He is a skilled hacker and provides valuable intel to the group." }
+                { name: "Zack Temple", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character05.png", details: "A highly intelligent and somewhat nerdy classmate of Geo. He is a skilled hacker and provides valuable intel to the group." },
+                { name: "Kelvin Stelar", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character06.png", details: "Geo's father and an accomplished astronaut. Kelvin's whereabouts have been unknown since a mysterious accident during a mission." },
+                { name: "Hope Stelar", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character07.png", details: "Geo's loving mother. Even with her husband missing, Hope puts on a bright face for Geo and nurtures a peaceful home." },
+                { name: "Aaron Boreal", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character08.png", details: "A former colleague of Kelvin Stelar and the current head of the astronomy laboratory, AMAKEN. Aaron is dedicated to solving the mysteries of the universe." },
+                { name: "Bob Copper", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character09.png", details: "Detective of the Satella Police. Hearing word of strange incidents caused by EM waves, Bob Copper sleuths the streets of Echo Ridge for clues." },
+                { name: "Patrick Sprigs", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character10.png", details: "A kindhearted classmate of Geo. Patrick treats Geo with as much friendly warmth as any other classmate even though Geo has not been attending school." }
             ],
             onlineFeatures: [
                 { imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_online_ss01_en.jpg", altTextKey: "alt_network", titleKey: "online_img_network" },
@@ -72,10 +78,16 @@ let currentLang = 'en'; // Default language
             ],
             characters: [
                 { name: "星河 スバル & ウォーロック", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character01.png", details: "シリーズの主人公。父を失い孤独だったスバルは、騒々しいFM星人ウォーロックと融合してロックマンとなり、新たな目的を見つけます。" },
+                { name: "ロックマン", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character11.png", details: "スバルとウォーロックが電波変換した姿。この形態で電波の世界「ウェーブワールド」を探検することができる。" },
                 { name: "響 ミソラ", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character02.png", details: "名声のプレッシャーに苦しむ人気ポップアイドル。FM星人リブラとウェーブチェンジすることで、熟練した俊敏な戦士ハープ・ノートになります。" },
                 { name: "白金 ルナ", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character03.png", details: "スバルのクラスの積極的でしばしば威張りん坊な委員長。やがて重要な仲間となり、友人たちの間で強力なリーダーとなります。" },
                 { name: "牛島 ゴン太", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character04.png", details: "食欲旺盛で大柄で騒々しい少年。FM星人タウルスと融合して強力なタウルス・ファイアになることができます。" },
-                { name: "最小院 キザマロ", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character05.png", details: "スバルの非常に知的でややオタクなクラスメート。彼は熟練したハッカーであり、グループに貴重な情報を提供します。" }
+                { name: "最小院 キザマロ", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character05.png", details: "スバルの非常に知的でややオタクなクラスメート。彼は熟練したハッカーであり、グループに貴重な情報を提供します。" },
+                { name: "天地 守", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character06.png", details: "スバルの父であり、熟練した宇宙飛行士。任務中の謎の事故以来、彼の行方は知られていない。" },
+                { name: "星河 あかね", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character07.png", details: "スバルの愛情深い母親。夫が行方不明であっても、スバルのために明るい顔をし、平和な家庭を育んでいる。" },
+                { name: "宇田海 深佑", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character08.png", details: "天地守のかつての同僚であり、アマケン天文学研究所の現所長。宇宙の謎を解明することに専念している。" },
+                { name: "五陽田 警部", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character09.png", details: "サテラポリスの刑事。電波による奇妙な事件の噂を聞きつけ、コダマタウンの街で手がかりを捜査している。" },
+                { name: "早乙女 ヒカル", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character10.png", details: "スバルの心優しいクラスメート。スバルが学校に来ていなくても、他のクラスメートと同じように親しみやすい暖かさでスバルに接する。" }
             ],
             onlineFeatures: [
                 { imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_online_ss01_ja-jp.jpg", altTextKey: "alt_network", titleKey: "online_img_network" },
