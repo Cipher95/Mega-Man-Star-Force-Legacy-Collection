@@ -28,13 +28,24 @@ let currentLang = 'en'; // Default language
                 { name: "Bud Bison", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character04.png", details: "A large and boisterous boy with a big appetite. He can merge with the FM-ian Taurus to become the powerful Taurus Fire." },
                 { name: "Zack Temple", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character05.png", details: "A highly intelligent and somewhat nerdy classmate of Geo. He is a skilled hacker and provides valuable intel to the group." }
             ],
+            onlineFeatures: [
+                { imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_online_ss01_en.jpg", altTextKey: "alt_network", titleKey: "online_img_network" },
+                { imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_online_ss02_en.jpg", altTextKey: "alt_preferences", titleKey: "online_img_preferences" },
+                { imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_online_ss03_en.jpg", altTextKey: "alt_rankings", titleKey: "online_img_rankings" }
+            ],
             translations: {
                 nav_about: "ABOUT", nav_trailer: "TRAILER", nav_title_list: "TITLE LIST", nav_online: "ONLINE", nav_characters: "CHARACTERS", nav_special_art: "SPECIAL ART", nav_details: "DETAILS",
-                release_date: "Available 2026", about_title: "ABOUT THE SERIES", about_subtitle1: "What is Mega Man Star Force?",
+                release_date: "March 27, 2026", about_title: "ABOUT THE SERIES", about_subtitle1: "What is Mega Man Star Force?",
                 about_text1: "To celebrate Mega Man's 20th anniversary, the new titles Mega Man Star Force Pegasus, Leo, and Dragon were released simultaneously. They evolved the best features of the Battle Network series, adding a new 3D battle system and exciting gameplay mechanics.",
                 about_subtitle2: "The World of Star Force", about_text2: "It is the year 220X. The world is connected by a network of EM Waves. Our protagonist, Geo Stelar, still mourning the disappearance of his astronaut father, has his life changed forever when he encounters a rogue FM-ian named Omega-Xis.",
                 trailer_title: "EXTENDED ANNOUNCE TRAILER", title_list_title: "INCLUDED TITLES", online_title: "ENHANCED ONLINE FEATURES",
                 online_text: "From battling rivals across the globe to trading BrotherBand cards, the powered-up online functions will let you experience the full power of the Mega Man Star Force network!",
+                online_img_network: "Network",
+                online_img_preferences: "Preferences",
+                online_img_rankings: "Rankings",
+                alt_network: "Online Network Battle",
+                alt_preferences: "Online Preferences",
+                alt_rankings: "Online Rankings",
                 characters_title: "KEY CHARACTERS", special_art_title: "SPECIAL ART", details_title: "GAME DETAILS", detail_label_available: "Available", detail_label_players: "Players",
                 detail_label_platforms: "Platforms", detail_label_rating: "Rating", detail_label_genre: "Genre", detail_label_note: "Note",
                 detail_value_players: "1 player (up to 2 players online)", detail_value_rating: "ESRB E10+", detail_value_note1: "The screen is still in development.", detail_value_note2: "Crossplay and cross-save between platforms is not supported."
@@ -66,6 +77,11 @@ let currentLang = 'en'; // Default language
                 { name: "牛島 ゴン太", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character04.png", details: "食欲旺盛で大柄で騒々しい少年。FM星人タウルスと融合して強力なタウルス・ファイアになることができます。" },
                 { name: "最小院 キザマロ", imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_character05.png", details: "スバルの非常に知的でややオタクなクラスメート。彼は熟練したハッカーであり、グループに貴重な情報を提供します。" }
             ],
+            onlineFeatures: [
+                { imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_online_ss01_ja-jp.jpg", altTextKey: "alt_network", titleKey: "online_img_network" },
+                { imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_online_ss02_ja-jp.jpg", altTextKey: "alt_preferences", titleKey: "online_img_preferences" },
+                { imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_online_ss03_ja-jp.jpg", altTextKey: "alt_rankings", titleKey: "online_img_rankings" }
+            ],
             translations: {
                 nav_about: "このシリーズについて", nav_trailer: "トレーラー", nav_title_list: "収録タイトル", nav_online: "オンライン", nav_characters: "キャラクター", nav_special_art: "スペシャルアート", nav_details: "詳細",
                 release_date: "2026年発売予定", about_title: "シリーズについて", about_subtitle1: "流星のロックマンとは？",
@@ -73,6 +89,12 @@ let currentLang = 'en'; // Default language
                 about_subtitle2: "流星の世界", about_text2: "西暦220X年。世界はEM波のネットワークで結ばれている。宇宙飛行士の父の失踪を悼む主人公、星河スバルは、はぐれFM星人ウォーロックと出会い、その人生を大きく変えることになる。",
                 trailer_title: "拡張アナウンストレーラー", title_list_title: "収録タイトル", online_title: "強化されたオンライン機能",
                 online_text: "世界中のライバルとの対戦からブラザーバンドカードの交換まで、パワーアップしたオンライン機能で『流星のロックマン』ネットワークのフルパワーを体験できます！",
+                online_img_network: "ネットワーク",
+                online_img_preferences: "各種設定",
+                online_img_rankings: "ランキング",
+                alt_network: "オンラインネットワークバトル",
+                alt_preferences: "オンライン各種設定",
+                alt_rankings: "オンラインランキング",
                 characters_title: "主な登場人物", special_art_title: "スペシャルアート", details_title: "ゲーム詳細", detail_label_available: "発売日", detail_label_players: "プレイヤー数",
                 detail_label_platforms: "プラットフォーム", detail_label_rating: "CERO", detail_label_genre: "ジャンル", detail_label_note: "備考",
                 detail_value_players: "1人（オンライン最大2人）", detail_value_rating: "B（12歳以上対象）", detail_value_note1: "画面は開発中のものです。", detail_value_note2: "プラットフォーム間のクロスプレイおよびクロスセーブはサポートされていません。"
@@ -158,6 +180,7 @@ let currentLang = 'en'; // Default language
         populateTitleList(lang);
         populateCharacters(lang);
         populateGameDetails(lang);
+        populateOnlineFeatures(lang); // ADDED: Call the new function here
     }
     
     // --- LIVE DATE & TIME ---
@@ -213,6 +236,27 @@ let currentLang = 'en'; // Default language
                     <p>${char.name}</p>
                 </div>`;
             card.addEventListener('click', () => openModal(char.imageUrl, char.name, char.details));
+            container.appendChild(card);
+        });
+    }
+    
+    function populateOnlineFeatures(lang) {
+        const container = document.querySelector('.online-images-grid');
+        const features = siteData[lang].onlineFeatures;
+        const translations = siteData[lang].translations;
+        if (!container || !features) return;
+
+        container.innerHTML = ''; // Clear existing content
+        features.forEach(feature => {
+            const card = document.createElement('div');
+            card.className = 'online-image-card';
+            
+            const altText = translations[feature.altTextKey] || '';
+
+            card.innerHTML = `
+                <img src="${feature.imageUrl}" alt="${altText}">
+                <h4 data-key="${feature.titleKey}">${translations[feature.titleKey]}</h4>
+            `;
             container.appendChild(card);
         });
     }
