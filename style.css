@@ -575,3 +575,40 @@ footer {
     margin: 0;
     text-align: left;
 }
+/* --- Online Section Enhancements --- */
+.online-images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 3rem; /* Add space after the paragraph */
+    text-align: center;
+}
+
+.online-image-card {
+    background-color: var(--card-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 15px;
+    padding: 1rem;
+    overflow: hidden;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.online-image-card:hover {
+    border-color: var(--accent-cyan);
+    box-shadow: 0 0 15px var(--accent-cyan);
+}
+
+.online-image-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid var(--border-color);
+}
+
+.online-image-card h4 {
+    color: var(--accent-cyan);
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 700;
+}
