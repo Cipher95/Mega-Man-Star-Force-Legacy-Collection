@@ -54,7 +54,7 @@ let currentLang = 'en'; // Default language
                 alt_rankings: "Online Rankings",
                 characters_title: "KEY CHARACTERS", special_art_title: "SPECIAL ART", details_title: "GAME DETAILS", detail_label_available: "Available", detail_label_players: "Players",
                 detail_label_platforms: "Platforms", detail_label_rating: "Rating", detail_label_genre: "Genre", detail_label_note: "Note",
-                detail_value_players: "1 player (up to 2 players online)", detail_value_rating: "ESRB E10+", detail_value_note1: "The screen is still in development.", detail_value_note2: "Crossplay and cross-save between platforms is not supported."
+                detail_value_players: "1 player (up to 2 players online)", detail_value_rating: "ESRB E10+", detail_value_note1: "Contents of game screenshots may differ from final product.", detail_value_note2: "Crossplay and cross-save between platforms is not supported."
             }
         },
         ja: {
@@ -109,7 +109,7 @@ let currentLang = 'en'; // Default language
                 alt_rankings: "オンラインランキング",
                 characters_title: "主な登場人物", special_art_title: "スペシャルアート", details_title: "ゲーム詳細", detail_label_available: "発売日", detail_label_players: "プレイヤー数",
                 detail_label_platforms: "プラットフォーム", detail_label_rating: "CERO", detail_label_genre: "ジャンル", detail_label_note: "備考",
-                detail_value_players: "1人（オンライン最大2人）", detail_value_rating: "B（12歳以上対象）", detail_value_note1: "画面は開発中のものです。", detail_value_note2: "プラットフォーム間のクロスプレイおよびクロスセーブはサポートされていません。"
+                detail_value_players: "1人（オンライン最大2人）", detail_value_rating: "B（12歳以上対象）", detail_value_note1: "ゲーム画面は開発中のものであり、実際の製品とは異なる場合があります。", detail_value_note2: "プラットフォーム間のクロスプレイおよびクロスセーブはサポートされていません。"
             }
         }
     };
