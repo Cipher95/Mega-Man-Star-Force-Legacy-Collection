@@ -309,7 +309,7 @@ nav {
 .card-content p {
     margin: 0;
     font-size: 1.1rem;
-    color: var(--primary-text);
+    color: var(--accent-cyan);
     font-weight: 700;
 }
 
@@ -578,7 +578,7 @@ footer {
 /* --- Online Section Enhancements --- */
 .online-images-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit);
     gap: 1.5rem;
     margin-top: 3rem; /* Add space after the paragraph */
     text-align: center;
@@ -599,7 +599,7 @@ footer {
 }
 
 .online-image-card img {
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 1rem;
