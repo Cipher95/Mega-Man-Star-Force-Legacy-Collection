@@ -55,7 +55,7 @@ let currentLang = 'en'; // Default language
                 characters_title: "KEY CHARACTERS", special_art_title: "SPECIAL ART", details_title: "GAME DETAILS", detail_label_available: "Available", detail_label_players: "Players",
                 detail_label_platforms: "Platforms", detail_label_rating: "Rating", detail_label_genre: "Genre", detail_label_note: "Note",
                 detail_value_players: "1 player (up to 2 players online)", detail_value_rating: "ESRB E10+", detail_value_note1: "Contents of game screenshots may differ from final product.", detail_value_note2: "Crossplay and cross-save between platforms is not supported.", detail_label_genre: "Action RPG",
-                detail_label_supported_languages: "Supported languages:", detail_value_supported_languages: "Text: Japanese/English/Traditional Chinese/Simplified Chinese Voice: Japanese/English"
+                detail_label_supported_languages: "Supported languages", detail_value_supported_languages: "Text: Japanese/English/Traditional Chinese/Simplified Chinese Voice: Japanese/English"
             }
         },
         ja: {
