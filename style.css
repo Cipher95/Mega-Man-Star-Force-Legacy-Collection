@@ -335,6 +335,21 @@ nav {
     display: block; /* Remove bottom space */
 }
 
+/* --- Iframe Container (Steam Charts) --- */
+.iframe-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid var(--border-color);
+    box-shadow: 0 0 20px rgba(0, 209, 255, 0.3);
+    background: var(--card-bg);
+}
+
+.iframe-container iframe {
+    display: block; /* removes extra pixel margin below the iframe */
+}
+
 /* --- Scroll Animation & Footer --- */
 .hidden {
     opacity: 0;
@@ -397,7 +412,7 @@ footer {
     }
 
     .nav-wrapper.active {
-        max-height: 400px; /* Increased height to accommodate more items */
+        max-height: 500px; /* Increased height to accommodate more items */
         padding-top: 1rem;
     }
 
