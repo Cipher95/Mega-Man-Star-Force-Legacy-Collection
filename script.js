@@ -40,8 +40,8 @@ let currentLang = 'en'; // Default language
                 { imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_online_ss03_en.jpg", altTextKey: "alt_rankings", titleKey: "online_img_rankings" }
             ],
             translations: {
-                nav_about: "ABOUT", nav_trailer: "TRAILER", nav_title_list: "TITLE LIST", nav_online: "ONLINE", nav_characters: "CHARACTERS", nav_special_art: "SPECIAL ART", nav_details: "DETAILS",
-                release_date: "March 27, 2026", about_title: "ABOUT THE SERIES", about_subtitle1: "What is Mega Man Star Force?",
+                nav_about: "ABOUT", nav_trailer: "TRAILER", nav_title_list: "TITLE LIST", nav_online: "ONLINE", nav_characters: "CHARACTERS", nav_special_art: "SPECIAL ART", nav_steam_charts: "STEAM CHARTS", nav_details: "DETAILS",
+                release_date: "March 27, 2026", about_title: "ABOUT THE SERIES", about_subtitle1: "What is Mega Man Star Force?", release_date2: "Available Now!",
                 about_text1: "To celebrate Mega Man's 20th anniversary, the new titles Mega Man Star Force Pegasus, Leo, and Dragon were released simultaneously. They evolved the best features of the Battle Network series, adding a new 3D battle system and exciting gameplay mechanics.",
                 about_subtitle2: "The World of Star Force", about_text2: "It is the year 220X. The world is connected by a network of EM Waves. Our protagonist, Geo Stelar, still mourning the disappearance of his astronaut father, has his life changed forever when he encounters a rogue FM-ian named Omega-Xis.",
                 trailer_title: "EXTENDED ANNOUNCE TRAILER", title_list_title: "INCLUDED TITLES", online_title: "ENHANCED ONLINE FEATURES",
@@ -52,7 +52,7 @@ let currentLang = 'en'; // Default language
                 alt_network: "Online Network Battle",
                 alt_preferences: "Online Preferences",
                 alt_rankings: "Online Rankings",
-                characters_title: "KEY CHARACTERS", special_art_title: "SPECIAL ART", details_title: "GAME DETAILS", detail_label_available: "Available", detail_label_players: "Players",
+                characters_title: "KEY CHARACTERS", special_art_title: "SPECIAL ART", steam_charts_title: "STEAM CHARTS", details_title: "GAME DETAILS", detail_label_available: "Available", detail_label_players: "Players",
                 detail_label_platforms: "Platforms", detail_label_rating: "Rating", detail_label_genre: "Genre", detail_label_note: "Note",
                 detail_value_players: "1 player (up to 2 players online)", detail_value_rating: "ESRB E10+", detail_value_note1: "Contents of game screenshots may differ from final product.", detail_value_note2: "Crossplay and cross-save between platforms is not supported.", detail_label_genre: "Action RPG",
                 detail_label_supported_languages: "Supported languages", detail_value_supported_languages: "Text: Japanese/English/Traditional Chinese/Simplified Chinese Voice: Japanese/English"
@@ -96,8 +96,8 @@ let currentLang = 'en'; // Default language
                 { imageUrl: "https://www.capcom-games.com/megaman/starforce/assets/images/index/pic_online_ss03_ja-jp.jpg", altTextKey: "alt_rankings", titleKey: "online_img_rankings" }
             ],
             translations: {
-                nav_about: "このシリーズについて", nav_trailer: "トレーラー", nav_title_list: "収録タイトル", nav_online: "オンライン", nav_characters: "キャラクター", nav_special_art: "スペシャルアート", nav_details: "詳細",
-                release_date: "2026年3月27日発売予定", about_title: "シリーズについて", about_subtitle1: "流星のロックマンとは？",
+                nav_about: "このシリーズについて", nav_trailer: "トレーラー", nav_title_list: "収録タイトル", nav_online: "オンライン", nav_characters: "キャラクター", nav_special_art: "スペシャルアート", nav_steam_charts: "Steamチャート", nav_details: "詳細",
+                release_date: "2026年3月27日発売予定", about_title: "シリーズについて", about_subtitle1: "流星のロックマンとは？",  release_date2: "好評発売中！",
                 about_text1: "「ロックマン」20周年を記念して、新作『流星のロックマン ペガサス』、『レオ』、『ドラゴン』が同時発売されました。バトルネットワークシリーズの長所を進化させ、新しい3Dバトルシステムとエキサイティングなゲームプレイメカニクスを追加しました。",
                 about_subtitle2: "流星の世界", about_text2: "西暦220X年。世界はEM波のネットワークで結ばれている。宇宙飛行士の父の失踪を悼む主人公、星河スバルは、はぐれFM星人ウォーロックと出会い、その人生を大きく変えることになる。",
                 trailer_title: "拡張アナウンストレーラー", title_list_title: "収録タイトル", online_title: "強化されたオンライン機能",
@@ -108,7 +108,7 @@ let currentLang = 'en'; // Default language
                 alt_network: "オンラインネットワークバトル",
                 alt_preferences: "オンライン各種設定",
                 alt_rankings: "オンラインランキング",
-                characters_title: "主な登場人物", special_art_title: "スペシャルアート", details_title: "ゲーム詳細", detail_label_available: "発売日", detail_label_players: "プレイヤー数",
+                characters_title: "主な登場人物", special_art_title: "スペシャルアート", steam_charts_title: "Steamチャート", details_title: "ゲーム詳細", detail_label_available: "発売日", detail_label_players: "プレイヤー数",
                 detail_label_platforms: "プラットフォーム", detail_label_rating: "CERO", detail_label_genre: "ジャンル", detail_label_note: "備考",
                 detail_value_players: "1人（オンライン最大2人）", detail_value_rating: "B（12歳以上対象）", detail_value_note1: "ゲーム画面は開発中のものであり、実際の製品とは異なる場合があります。", detail_value_note2: "プラットフォーム間のクロスプレイおよびクロスセーブはサポートされていません。", detail_label_genre: "ブラザーアクションRPG",
                 detail_label_supported_languages: "対応言語", detail_value_supported_languages: "表示言語： 日本語/英語/簡体中文/繁体中文 音声： 日本語/英語"
